@@ -12,3 +12,5 @@ node_modules
 # solidity-coverage files
 /coverage
 /coverage.json
+
+/test/Ballot_test_1.0_bakcup.txt

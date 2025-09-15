@@ -1,0 +1,11 @@
+provider: supplies available
+     A provider is someone or something that supplies or makes available a service, resource, or product
+ 声明async函数:和区块链交互不是实时的
+    要用到await，再把这些这些用async函数包裹起来，最后再调用这个函数。
+转换单位
+    从链上获取的以太坊余额以wei为单位,ethers提供了功能函数formatEther，我们可以利用它将wei转换为ETH.
+     Format:the way something is designed, arranged, or produced.
+特点
+    ethers.js中，Provider提供器类管理网络连接状态，Wallet钱包类管理密钥，原生支持ENS。
+
+
