@@ -22,7 +22,8 @@ module.exports = {
       url: SEPOLIA_URL,
       // accounts 数组里要传字符串私钥（带 0x 前缀）
       accounts: [SEPOLIA_KEY,SEPOLIA_KEY_2], // 确保是字符串
-      chainId:11155111
+      chainId:11155111,
+      timeout: 60000  // 1分钟
     }
   },
 
